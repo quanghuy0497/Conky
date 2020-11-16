@@ -39,6 +39,9 @@ ${time %H:%M:%S}${alignr}${time %d-%m-%y}
 ${voffset -16}${font sans-serif:bold:size=18}${alignc}${time %H:%M}${font}
 ${voffset 4}${alignc}${time %A %B %d, %Y}
 ${font}${voffset -4}
+${font :size=10:style=Bold}${alignc}${color #00ff00}DO or DO NOT. There is no try.
+${font :size=9} ${color #0026ff}${alignc}Yoda$color
+
 ${font sans-serif:bold:size=10}SYSTEM ${hr 2}
 ${font sans-serif:normal:size=8}
 ${execi 999999 lsb_release -ds}
@@ -105,7 +108,4 @@ Down: ${downspeed enp4s0} kb/s $alignr Total: ${totaldown enp4s0}
 Up: ${upspeed enp4s0} kb/s $alignr Total: ${totalup enp4s0}
 ${color lightgray}${downspeedgraph enp4s0 80,130 } ${alignr}${upspeedgraph enp4s0 80,130 }$color
 ${endif}
-
-${font :size=10:style=Bold}${alignc}${color}DO or DO NOT. There is no try.
-${font :size=9}${alignc}Yoda$color
-]];
+]]
