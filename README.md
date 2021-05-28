@@ -1,5 +1,5 @@
 # Conky-Widget
-My custom Conky Widget on Ubuntu 18.04 LTS. 
+My custom Conky Widget on Ubuntu 18.04 LTS deskop. 
 
 ## Install:
 
