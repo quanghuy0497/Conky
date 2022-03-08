@@ -61,8 +61,11 @@ ${font sans-serif:normal:size=8}RAM: $alignc $mem / $memmax $alignr  ${color #f8
 $membar
 
 ${font sans-serif:bold:size=10}DISK USAGE ${hr 2}
-${font sans-serif:normal:size=8}Usage: $alignc ${fs_used /} / ${fs_size /} $alignr ${fs_used_perc /}%
+${font sans-serif:normal:size=8}Computer: $alignc ${fs_used /} / ${fs_size /} $alignr ${fs_used_perc /}%
 ${fs_bar /}
+
+${font sans-serif:normal:size=8}Home: $alignc ${fs_used /home} / ${fs_size /home} $alignr ${fs_used_perc /home}%
+${fs_bar /home}
 
 ${font sans-serif:bold:size=10}GPU PERFORMANCE ${hr 2}
 ${if_match ${exec lsmod | grep 'nvidia' -c} > 0}\
