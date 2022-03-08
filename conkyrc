@@ -37,7 +37,7 @@ conky.config = {
 conky.text = [[
 ${time %H:%M:%S}${alignr}${time %d/%m/%Y}
 ${voffset -16}${font sans-serif:bold:size=18}${alignc}${time %H:%M}${font}
-${voffset 4}${alignc}${time %A %B %d, %Y}
+${voffset 4}${alignc}${time %A, %B %d, %Y}
 ${font}${voffset -4}
 ${font :size=10:style=Bold}${alignc}${color #00ff00}DO or DO NOT. There is no try.
 ${font :size=9} ${color #0026ff}${alignc}Yoda$color
